@@ -1,0 +1,3 @@
+FROM ubuntu
+ADD helloJava.class /helloJava.class
+CMD ["java","helloJava.class"]

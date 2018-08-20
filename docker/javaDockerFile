@@ -1,0 +1,3 @@
+FROM java:latest
+ADD helloJava.class /helloJava.class
+CMD ["java","helloJava"]

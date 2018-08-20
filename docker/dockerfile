@@ -1,0 +1,3 @@
+FROM ubuntu
+ADD hello.sh /hello1.sh
+CMD ["bash","hello1.sh"]

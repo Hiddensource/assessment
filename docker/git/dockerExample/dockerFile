@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 9999
+ADD target/dockerExample-0.0.1-SNAPSHOT.jar springboot-docker.jar
+CMD ["java","-jar","/springboot-docker.jar"]
